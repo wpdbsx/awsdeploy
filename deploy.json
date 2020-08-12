@@ -1,7 +1,7 @@
 {
-  "REPO_URL":"https://github.com/bongseop2822/t1",
-  "PROJECT_NAME":"t1",
-  "REMOTE_HOST":"ec2-13-209-22-71.ap-northeast-2.compute.amazonaws.com",
-  "REMOTE_HOST_SSH":"13.209.22.71",
-  "REMOTE_USER":"ubuntu"
+  "REPO_URL": "https://github.com/wpdbsx/awsdeploy",
+  "PROJECT_NAME": "awsdeploy",
+  "REMOTE_HOST": "ec2-54-180-26-126.ap-northeast-2.compute.amazonaws.com",
+  "REMOTE_HOST_SSH": "54.180.26.126",
+  "REMOTE_USER": "ubuntu"
 }
