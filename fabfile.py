@@ -2,6 +2,7 @@
 # fabfile.py
 # fabric은 서버 세팅에 필요한 모든 과정을 파이썬으로 기록하여 위한
 # 원격 PC에서 자동으로 서버를 세팅하는 자동화 지원모듈이다.
+# install pip fabric3
 from fabric.contrib.files import append, exists, sed, put
 from fabric.api import env, local, run, sudo
 import os
@@ -25,7 +26,7 @@ env.hosts = [
 ]
 env.use_ssh_config = True
 # SSH로 접속시 필요한 개인키의 물리적위치 (상대경로 )
-env.key_filename = '../kfq_busan.ppk'
+env.key_filename = '../kfq_busan.pem'
 # 리눅스에 세팅될 원격 위치
 # /home/ubuntu/awsdeploy
 project_folder = '/home/{}/{}'.format(env.user, PROJECT_NAME)
