@@ -1,2 +1,2 @@
-flask == 1.1.1
-scikit-learn == 0.22.1cd ..
+flask==1.1.1
+scikit-learn==0.22.1
